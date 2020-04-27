@@ -7,9 +7,9 @@ var oracledb = require('oracledb');
 		
 		connection = await oracledb.getConnection({
 			
-			user: 'hccf',
-			password: 'Omkar@321',
-			connectString: 'hvlc-cm21d1:1580/cm21d1'
+			user: '<username>',
+			password: '<password>',
+			connectString: '<databaseName>'
 		});
 		console.log("Successfully connected");
 	} catch(err){
